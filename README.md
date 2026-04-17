@@ -1,10 +1,10 @@
-# 💄 Marketing Mix Modelling — Luxury Beauty Brand
+# Marketing Mix Modelling — Luxury Beauty Brand
 
 > **Bayesian MMM to decompose multi-channel media spend, quantify true ROI, and optimise budget allocation for a luxury beauty brand (inspired by Charlotte Tilbury).**
 
 ---
 
-## 📊 Project Overview
+## Project Overview
 
 Marketing Mix Modelling answers the question every CMO asks:
 
@@ -14,7 +14,7 @@ This project builds a full Bayesian MMM pipeline using **PyMC-Marketing**, appli
 
 ---
 
-## 🎯 Business Impact
+## Business Impact
 
 | Metric | Result |
 |---|---|
@@ -26,7 +26,7 @@ This project builds a full Bayesian MMM pipeline using **PyMC-Marketing**, appli
 
 ---
 
-## 🧠 Key Concepts Covered
+## Key Concepts Covered
 
 ### Adstock (Carry-over Effect)
 When a TV ad runs this week, people don't buy immediately — they remember it for weeks. Adstock models this memory decay geometrically:
@@ -51,7 +51,7 @@ Unlike classical OLS, Bayesian MMM gives **full uncertainty quantification** —
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 mmm_charlotte_tilbury/
@@ -78,7 +78,7 @@ mmm_charlotte_tilbury/
 
 ---
 
-## 📈 Outputs
+## Outputs
 
 ### Revenue Decomposition
 ![Revenue Decomposition](outputs/01_revenue_decomposition.png)
@@ -100,7 +100,7 @@ mmm_charlotte_tilbury/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone
@@ -125,7 +125,7 @@ jupyter lab notebooks/mmm_analysis.ipynb
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -137,7 +137,7 @@ jupyter lab notebooks/mmm_analysis.ipynb
 
 ---
 
-## 📐 Model Architecture
+## Model Architecture
 
 ```
 Revenue[t] = Base[t] + Σ_c(Channel_contribution[c,t]) + ε[t]
@@ -154,7 +154,7 @@ Priors (Bayesian):
 
 ---
 
-## 🧪 Data Generation
+## Data Generation
 
 The synthetic dataset is carefully engineered to reflect real beauty brand dynamics:
 
@@ -167,7 +167,7 @@ The synthetic dataset is carefully engineered to reflect real beauty brand dynam
 
 ---
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 Based on the model outputs:
 
@@ -179,7 +179,7 @@ Based on the model outputs:
 
 ---
 
-## 📚 References & Further Reading
+## References & Further Reading
 
 - [PyMC-Marketing Documentation](https://www.pymc-marketing.io/)
 - Jin, Y. et al. (2017). *Bayesian Methods for Media Mix Modeling with Carryover and Shape Effects*. Google Inc.
