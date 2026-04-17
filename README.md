@@ -188,4 +188,4 @@ Based on the model outputs:
 
 ---
 
-*Built as a portfolio project demonstrating data science skills in marketing analytics, Bayesian statistics, and e-commerce.*
+
